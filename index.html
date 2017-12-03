@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="UTF-8">
+  <title>Papers count display</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="cssReset.css">
+
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="small-wrapper">
+          <input class="text" type="text" id='t' value='tttt'/>
+          <div class='years'>
+            <input class="year" type="number" id='s' value='2000'/>
+            <input class="year" type="number" id='e' max='2018' value='2005'/>
+          </div>
+        <button id="trigger">Search</button>
+      </div>
+      <div class="big-wrapper" id="container" >
+
+      </div>
+    </div>
+  </body>
+
+<script src="script.js"></script>
+</html>
